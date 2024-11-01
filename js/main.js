@@ -46,7 +46,7 @@ updateButtonVisibility();
 //CONTADOR HACIA ATRAS
 
 // FECHA DE LA CONFERENCIA
-let countDownDate = new Date("10 31, 2024 10:00:00").getTime();
+let countDownDate = new Date("01 23, 2025 10:00:00").getTime();
 
 // ACTUALIZA EL CONTADOR CADA 1000ms O 1 SEGUNDO
 let x = setInterval(function() {
