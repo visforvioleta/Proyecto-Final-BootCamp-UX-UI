@@ -610,6 +610,7 @@ header {
 .about__image,
 .about2__image {
   flex: 1;
+  width: 100%;
   /* Permite que la imagen se ajuste al espacio disponible */
 }
 
@@ -617,16 +618,10 @@ header {
   text-align: end;
 }
 
-.about__img,
-.about2__img {
+.about__image img, .about2__image iframe{
   width: 100%;
-  height: auto;
-}
-
-.about__vid {
-  width: 100%;
-  height: auto;
-}
+  aspect-ratio: 16 / 9;
+} 
 
 @media (max-width: 1200px) {
   .about__wrapper,
@@ -648,15 +643,9 @@ header {
 
 @media (max-width: 768px) {
   .about__content,
-  .about__image,
-  .about2__img {
+  .about__image {
     width: 100%;
     margin-bottom: 1rem;
-  }
-
-  .about__img img,
-  .about2__img img {
-    width: 100%;
   }
 }
 
